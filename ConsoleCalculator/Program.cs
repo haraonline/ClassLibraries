@@ -1,4 +1,5 @@
-﻿namespace ConsoleCalculator;
+﻿using Globomantics.Math;
+namespace ConsoleCalculator;
 
 internal class Program
 {
@@ -10,5 +11,11 @@ internal class Program
         //Assembly Globomantics.Data.Entity
         //Assembly Globomantics.Data.Validation
         //Class library Project: Globomantics.Data > Globomantics.Data.dll
+
+        Arithmatic.Add(1, 2);
+        Arithmatic.Subtract(1, 2);
+        Arithmatic.Multiply(1, 2);
+        Arithmatic.Divide(1, 2);        
+        
     }
 }

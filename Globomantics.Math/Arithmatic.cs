@@ -1,23 +1,23 @@
 ﻿namespace Globomantics.Math;
 
-internal class Arithmatic
+public static class Arithmatic
 {
-    public int Add(int x, int y)
+    public static int Add(int x, int y)
     {
         return x + y;
     }
 
-    public int Subtract(int x, int y)
+    public static int Subtract(int x, int y)
     {
         return x - y;
     }
 
-    public int Multiply(int x, int y)
+    public static int Multiply(int x, int y)
     {
         return x * y;
     }
 
-    public int Divide(int x, int y)
+    public static int Divide(int x, int y)
     {
         return x / y;
     }
