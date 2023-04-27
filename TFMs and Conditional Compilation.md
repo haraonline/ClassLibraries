@@ -1,3 +1,3 @@
-##Target Framework Monikers and conditional compilation
+## Target Framework Monikers and conditional compilation
 
 Target Framework Monikers (TFMs) in C# provide a standardized way to identify specific frameworks or platforms, enabling developers to build versatile applications with conditional compilation. Utilizing preprocessor directives, such as #if, #elif, and #endif, developers can adapt their code to run on various target frameworks, such as .NET Core, .NET Framework, or Xamarin, by including or excluding specific code blocks. This approach allows for streamlined, efficient development across multiple platforms and configurations, while maintaining code readability and reducing the need for maintaining separate codebases.
